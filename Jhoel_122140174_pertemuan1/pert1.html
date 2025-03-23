@@ -6,14 +6,14 @@
   <title>Tugas Praktikum 1</title>
   <style>
     /* Gaya minimal ajah*/
-    body { font-family: Arial, sans-serif; padding: 20px; }
-    .section { margin-bottom: 40px; border: 1px solid #ccc; padding: 20px; }
+    body { font-family: Arial, sans-serif; padding: 30px; }
+    .section { margin-bottom: 40px; border: 1px solid #238faa; padding: 20px; }
     .section h2 { margin-top: 0; }
     .todo-item { display: flex; align-items: center; justify-content: space-between; margin-bottom: 5px; }
-    .todo-item.done span { text-decoration: line-through; }
+    .todo-item.done span { text-decoration: line-through #ff0606 3px; }
     .todo-buttons { display: inline-flex; gap: 4px; }
-    .error { color: red; }
-    .success { color: green; }
+    .error { color: rgb(199, 0, 0); }
+    .success { color: rgb(0, 172, 29); }
     input, button { padding: 8px; margin: 4px 0; }
     button { cursor: pointer; }
     #todo-controls { margin-top: 10px; }
@@ -65,7 +65,12 @@
         <input type="email" id="email" placeholder="Email">
       </div>
       <div>
-        <input type="password" id="password" placeholder="Password (min. 8 karakter)">
+        <div style="position: relative; display: inline-block;">
+          <input type="password" id="password" placeholder="Password (min. 8 karakter)" style="padding-right: 40px;">
+          <button type="button" id="toggle-password" style="position: absolute; right: 5px; top: 50%; transform: translateY(-50%); border: none; background: transparent; cursor: pointer;">
+            👁
+          </button>
+        </div>
       </div>
       <button type="submit">Submit</button>
     </form>
