@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Praktikum 1</title>
+  <style>
+    /* Gaya minimal ajah*/
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .section { margin-bottom: 40px; border: 1px solid #ccc; padding: 20px; }
+    .section h2 { margin-top: 0; }
+    .todo-item { display: flex; align-items: center; justify-content: space-between; margin-bottom: 5px; }
+    .todo-item.done span { text-decoration: line-through; }
+    .todo-buttons { display: inline-flex; gap: 4px; }
+    .error { color: red; }
+    .success { color: green; }
+    input, button { padding: 8px; margin: 4px 0; }
+    button { cursor: pointer; }
+    #todo-controls { margin-top: 10px; }
+    #todo-controls label { font-size: 0.9em; margin-left: 8px; }
+  </style>
+</head>
+<body>
+  <!-- Tugas 1 -->
+  <div class="section" id="todo-section">
+    <h2>To-Do List</h2>
+    <input type="text" id="todo-input" placeholder="Tambah tugas baru" />
+    <button id="add-btn">Tambah</button>
+    <ul id="todo-list"></ul>
+    <div id="todo-controls">
+      <button id="save-btn">Save</button>
+      <label>
+        <input type="checkbox" id="autosave-checkbox" checked> Save otomatis
+      </label>
+    </div>
+  </div>
+  
+  <!-- Tugas 2 -->
+  <div class="section" id="calculator-section">
+    <h2>Kalkulator Extended</h2>
+    <div>
+      <input type="number" id="angka1" placeholder="Angka 1">
+      <input type="number" id="angka2" placeholder="Angka 2">
+    </div>
+    <div>
+      <button id="btn-tambah">+</button>
+      <button id="btn-kurang">-</button>
+      <button id="btn-kali">×</button>
+      <button id="btn-bagi">÷</button>
+      <button id="btn-pangkat">^</button>
+      <button id="btn-modulus">%</button>
+      <button id="btn-akar">√</button>
+    </div>
+    <div id="hasil-kalkulator"></div>
+  </div>
+  
+  <!-- Tugas 3 -->
+  <div class="section" id="form-section">
+    <h2>Form Validasi</h2>
+    <form id="my-form">
+      <div>
+        <input type="text" id="nama" placeholder="Nama (min. 4 karakter)">
+      </div>
+      <div>
+        <input type="email" id="email" placeholder="Email">
+      </div>
+      <div>
+        <input type="password" id="password" placeholder="Password (min. 8 karakter)">
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="form-error"></div>
+  </div>
+  
+  <script src="script_pert1.js"></script>
+</body>
+</html>
