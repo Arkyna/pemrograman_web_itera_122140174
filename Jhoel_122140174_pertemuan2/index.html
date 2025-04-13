@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>"My Dasboard WOW, yeahh."</title>
+  <link rel="icon" type="image/png" href="assets/favico.png">
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="logo">-MyBoard-</div>
+
+    <div class="navbar-center">
+      <div class="datetime" id="datetime"></div>
+    </div>
+
+    <nav class="nav-menu">
+      <a href="#">Github</a>
+      <a href="#">ReadMe</a>
+    </nav>
+  </header>
+
+  <div id="greeting" class="greeting-message"></div>
+
+  <main class="dashboard">
+    <h1>Notes</h1>
+    <section class="input-section">
+      <input type="text" id="taskInput" placeholder="apa yg anda pikirkan sekarang? Letakkan disini." />
+      <div class="label-and-button">
+        <div class="label-selector">
+          <label><input type="radio" name="label" value="red" /><span>🔴</span></label>
+          <label><input type="radio" name="label" value="yellow" /><span>🟡</span></label>
+          <label><input type="radio" name="label" value="green" /><span>🟢</span></label>
+        </div>
+        <button id="addBtn">+</button>
+      </div>
+    </section>
+
+    <ul id="taskList" class="task-list"></ul>
+
+    <section class="schedule-section">
+      <h1>Jadwal Kuliah</h1>
+      <table class="schedule-table">
+        <thead>
+          <tr>
+            <th>Hari</th>
+            <th>Jam</th>
+            <th>Mata Kuliah</th>
+            <th>Dosen</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+        
+        <tbody id="scheduleBody">
+        </tbody>
+      </table>
+    </section>
+
+    <section class="schedule-input">
+      <input type="text" id="scheduleInput" placeholder="ada empat kolom data, gunakan | atau , sebagai pemisah" />
+      <button id="addScheduleBtn">+ Jadwal</button>
+      <button id="clearScheduleBtn">Clear ALL</button>
+    </section>
+    
+  </main>
+
+  <script type="module" src="scripts/app.js"></script>
+</body>
+
+</html>
