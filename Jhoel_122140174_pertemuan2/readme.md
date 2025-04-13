@@ -1,6 +1,6 @@
 # Personal Dashboard Web App
 
-## [Link Website](https://arkyna.github.io/pemrograman_web_itera_122140174/Jhoel_122140174_pertemuan2/index.html)
+## Di deploy disini: [Link Website](https://arkyna.github.io/pemrograman_web_itera_122140174/Jhoel_122140174_pertemuan2/index.html)
 
 > **"Literally Part 2."**
 
@@ -29,7 +29,9 @@ Aplikasi dashboard pribadi berbasis web modern yang dirancang untuk membantu pen
 
 ## Screenshot
 
+### Preview App
 ![Tampilan Aplikasi](assets/screenshot1.png)
+### Preview App (mobile)
 ![Tampilan Aplikasi - Mobile](assets/screenshot2.png)
 
 ---
@@ -60,7 +62,8 @@ Aplikasi dashboard pribadi berbasis web modern yang dirancang untuk membantu pen
 
 ## Cara Menjalankan
 
-Cukup buka `index.html` di browser lokal (tidak memerlukan server atau bundler tambahan).
+- Download Repo ini
+- Cukup buka `index.html` di browser lokal (tidak memerlukan server atau bundler tambahan).
 
 ---
 
