@@ -1,8 +1,10 @@
 # Personal Dashboard Web App
 
+## [Link Website](https://arkyna.github.io/pemrograman_web_itera_122140174/Jhoel_122140174_pertemuan2/index.html)
+
 > **"Literally Part 2."**
 
-Aplikasi dashboard pribadi berbasis web modern yang dirancang untuk membantu pengguna mencatat ide, menjadwalkan kegiatan, dan mendapatkan greeting dinamis sesuai waktu. Dengan UI bergaya modern dan animasi yang menarik, aplikasi ini menawarkan pengalaman pengguna yang intuitif dan estetis.
+Aplikasi dashboard pribadi berbasis web modern yang dirancang untuk membantu pengguna mencatat ide, menjadwalkan kegiatan, dan mendapatkan greeting dinamis sesuai waktu. Dengan UI bergaya modern dan animasi yang biasa aja tapi fungsional.
 
 ---
 
@@ -28,6 +30,7 @@ Aplikasi dashboard pribadi berbasis web modern yang dirancang untuk membantu pen
 ## Screenshot
 
 ![Tampilan Aplikasi](assets/screenshot1.png)
+![Tampilan Aplikasi - Mobile](assets/screenshot2.png)
 
 ---
 
