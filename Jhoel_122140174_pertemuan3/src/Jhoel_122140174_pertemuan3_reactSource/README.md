@@ -1,10 +1,12 @@
 
-# Aplikasi Manajemen Buku Pribadi
+# Aplikasi MylistMybuku
 
 Aplikasi berbasis **React + Vite** untuk mencatat dan mengelola koleksi buku pribadi.  
 Pengguna dapat menambahkan buku yang dimiliki, sedang dibaca, atau ingin dibeli, serta melakukan pencarian, penyaringan, dan melihat statistik sederhana.
 
 ---
+
+## Hasil deploy disini: [Link Website](https://arkyna.github.io/pemrograman_web_itera_122140174/Jhoel_122140174_pertemuan3/)
 
 ## Fitur Utama
 
@@ -34,10 +36,10 @@ Pengguna dapat menambahkan buku yang dimiliki, sedang dibaca, atau ingin dibeli,
 
 ## Cara Instalasi & Menjalankan
 
-1. Clone repositori ini:
+1. Clone repositori ini (not recommended unless you have your reason):
 
 ```bash
-git clone https://github.com/your-username/book-manager.git
+git clone https://github.com/Arkyna/pemrograman_web_itera_122140174.git
 cd book-manager
 ```
 
@@ -64,13 +66,14 @@ npm run dev
 
 ### Form Tambah/Edit:
 ![Form](assets/screenshot2.png)
+![Edited](assets/screenshot3.png)
 
 ### Statistik Buku:
-![Stats](assets/screenshot3.png)
+![Stats](assets/screenshot4.png)
 
 ---
 
-## 🧪 Laporan Testing
+## Laporan Testing
 
 Testing dijalankan menggunakan `Vitest` dan `@testing-library/react`.
 
@@ -80,8 +83,7 @@ npx vitest run
 
 ### Hasil Screenshot:
 
-- ![Test Result 1](assets/test1.png)
-- ![Test Result 2](assets/test2.png)
+- ![Test Result](assets/test1.png)
 
 Total: **5 Unit Test**
 - Validasi Form
@@ -92,7 +94,7 @@ Total: **5 Unit Test**
 
 ---
 
-## Struktur Folder
+## Struktur Folder (sesuai ketentuan)
 
 ```
 src/
@@ -119,7 +121,7 @@ src/
 
 ## Catatan Akhir
 
-Komentar telah ditambahkan dalam file JavaScript untuk bagian penting seperti:
+Komentar telah ditambahkan dalam file JavaScript:
 
 - Reducer logic
 - Form validation
