@@ -6,7 +6,7 @@ import Stats from "./pages/Stats/Stats";
 function App() {
   return (
     <BookProvider>
-      <Router>
+      <Router basename="/pemrograman_web_itera_122140174/Jhoel_122140174_pertemuan3">
         <nav className="navbar">
           <Link to="/">Home</Link>
           <Link to="/stats">Your Stat</Link>
