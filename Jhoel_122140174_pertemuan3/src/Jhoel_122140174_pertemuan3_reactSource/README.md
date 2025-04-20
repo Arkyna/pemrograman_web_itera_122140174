@@ -64,14 +64,14 @@ npm run dev
 ## 📸 Screenshot Antarmuka
 
 ### Halaman Utama:
-![Home](src/assets/screenshot1.png)
+![Home](src/assets/Screenshot1.png)
 
 ### Form Tambah/Edit:
-![Form](src/assets/screenshot2.png)
-![Edited](src/assets/screenshot3.png)
+![Form](src/assets/Screenshot2.png)
+![Edited](src/assets/Screenshot3.png)
 
 ### Statistik Buku:
-![Stats](src/assets/screenshot4.png)
+![Stats](src/assets/Screenshot4.png)
 
 ---
 
