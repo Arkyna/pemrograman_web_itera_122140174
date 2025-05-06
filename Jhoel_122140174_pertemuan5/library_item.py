@@ -23,7 +23,7 @@ class Book(LibraryItem):
         super().__init__(item_id, title)
         self._author = author
 
-    def display_info(self):  # override abstract method
+    def display_info(self):  # override the parent abstract method
         print(f"[Book] ID: {self._item_id}, Title: {self._title}, Author: {self._author}")
 
 

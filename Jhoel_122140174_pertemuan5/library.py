@@ -1,6 +1,6 @@
 class Library:
     def __init__(self):
-        self.__items = []  # private collection list
+        self.__items = []  # private list
 
     def add_item(self, item):
         self.__items.append(item)
