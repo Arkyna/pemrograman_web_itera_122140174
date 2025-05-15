@@ -1,0 +1,36 @@
+### Tambah matakuliah
+POST http://localhost:6543/matakuliah
+Content-Type: application/json
+
+{
+  "kode_mk": "IF101",
+  "nama_mk": "Kriptografi",
+  "sks": 3,
+  "semester": 5
+}
+
+###
+
+### Ambil semua matakuliah
+GET http://localhost:6543/matakuliah
+
+###
+
+### Ambil matakuliah by ID
+GET http://localhost:6543/matakuliah/1
+
+###
+
+### Update matakuliah
+PUT http://localhost:6543/matakuliah/1
+Content-Type: application/json
+
+{
+  "nama_mk": "Kriptografi Lanjut",
+  "sks": 4
+}
+
+###
+
+### Hapus matakuliah
+DELETE http://localhost:6543/matakuliah/1
