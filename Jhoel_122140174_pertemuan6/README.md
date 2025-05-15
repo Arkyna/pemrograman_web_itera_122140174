@@ -29,7 +29,7 @@ git clone https://github.com/USERNAME/pyramid-matakuliah.git
 cd pyramid-matakuliah
 ```
 
-2. **Buat Virtual Environment (disarankan: conda)**
+2. **Buat Virtual Environment (yg punya repo pakai miniconda)**
 
 ```bash
 conda create -n matakuliah_env python=3.11
@@ -123,14 +123,6 @@ Content-Type: application/json
 ```http
 DELETE http://localhost:6543/matakuliah/1
 ```
-
-## 📝 Penilaian Tugas
-
-| Aspek                       | Bobot | Status |
-| --------------------------- | ----- | ------ |
-| Model Data                  | 30%   | ✅ ✔️   |
-| API Endpoints (CRUD)        | 40%   | ✅ ✔️   |
-| Dokumentasi & Kerapian Kode | 30%   | ✅ ✔️   |
 
 ## 📌 Catatan
 
